@@ -11,6 +11,6 @@ class HomeController extends Controller {
         /*return $response->write(
             'What is your name? My name is: '. $request->getParam('name')
         );*/
-        return $this->container->view->render($response, 'test.twig');
+        return $this->container->view->render($response, 'index.twig');
     }
 }
